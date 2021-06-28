@@ -26,7 +26,7 @@ export default function Header() {
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/"><a>Work</a></Link></div>
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/"><a>Uses</a></Link></div>
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/"><a>Articles</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/"><a>Contact</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/contact"><a>Contact</a></Link></div>
 
                     {/* Dark mode switcher */}
                     <div className="flex border-black border-2 space-x-4 p-1 rounded-3xl">
@@ -92,7 +92,7 @@ export default function Header() {
                             </Link>
                         </div>
                         <div class="hover:border-b transition ease-in-out">
-                            <Link href="/">
+                            <Link href="/contact">
                                 <a>
                                     Contact
                                 </a>

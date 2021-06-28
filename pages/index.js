@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/footer'
 import Header from '../components/header'
@@ -6,15 +5,7 @@ import profilePic from '../public/profile.png'
 
 export default function Home() {
   return (
-    <div className="w-full max-w-7xl mx-auto px-10 bg-white">
-        <Head>
-            <title>Mohammed Sohail</title>
-            <link rel="icon" href="/favicon.ico" />
-            <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-            <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"></link>
-        </Head>
-
+        <>
         <Header></Header>
 
         <section class="mb-10">
@@ -45,6 +36,6 @@ export default function Home() {
         </section>
 
         <Footer></Footer>
-    </div>
+        </>
   )
 }
