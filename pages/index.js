@@ -6,8 +6,6 @@ import profilePic from '../public/profile.png'
 export default function Home() {
   return (
         <>
-        <Header></Header>
-
         <section class="mb-10">
             <div className="grid md:grid-cols-2 grid-cols-1">
 
@@ -34,8 +32,6 @@ export default function Home() {
 
             </div>
         </section>
-
-        <Footer></Footer>
         </>
   )
 }
