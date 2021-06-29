@@ -9,7 +9,7 @@ import livewireLogo from '../public/livewire.svg'
 
 export default function Project() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div class="flex flex-col space-y-5">
                 <h2 className="text-4xl mb-5">Featured Project</h2>
 
