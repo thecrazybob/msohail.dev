@@ -15,7 +15,7 @@ export default function Header() {
     return (
         <header className="flex justify-between items-center mt-10 mb-32">
                 {/* Logo */}
-                <div>
+                <div className="w-56 -mb-2 md:w-full">
                     <Link href="/"><a><Image src={Logo} alt="Mohammed Sohail" /></a></Link>
                 </div>
                 {/* end of Logo */}
@@ -32,7 +32,7 @@ export default function Header() {
                     <div className="flex border-black border-2 space-x-4 p-1 rounded-3xl">
                         <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M29 14.5C29 22.5109 22.5108 28.9999 14.4999 28.9999C6.48958 28.9999 0 22.5109 0 14.5C0 6.48972 6.48958 0 14.4999 0C22.5108 0 29 6.48972 29 14.5Z" fill="#010101"/>
-                        <path d="M11.4529 19.9103H16.8395H11.4529ZM14.1468 3.77249V4.92519V3.77249ZM21.4826 6.81101L20.6676 7.62597L21.4826 6.81101ZM24.5211 14.1468H23.3684H24.5211ZM4.92516 14.1468H3.77246H4.92516ZM7.62594 7.62597L6.81098 6.81101L7.62594 7.62597ZM10.0708 18.2228C9.26493 17.4167 8.71616 16.3897 8.4939 15.2717C8.27164 14.1538 8.38586 12.995 8.82213 11.9419C9.2584 10.8889 9.99713 9.98883 10.9449 9.35559C11.8927 8.72236 13.0069 8.38437 14.1468 8.38437C15.2866 8.38437 16.4009 8.72236 17.3486 9.35559C18.2964 9.98883 19.0351 10.8889 19.4714 11.9419C19.9077 12.995 20.0219 14.1538 19.7996 15.2717C19.5774 16.3897 19.0286 17.4167 18.2227 18.2228L17.591 18.8533C17.2299 19.2145 16.9435 19.6433 16.7481 20.1152C16.5527 20.5871 16.4521 21.0929 16.4522 21.6036V22.2157C16.4522 22.8271 16.2093 23.4135 15.7769 23.8459C15.3446 24.2782 14.7582 24.5211 14.1468 24.5211C13.5353 24.5211 12.949 24.2782 12.5166 23.8459C12.0843 23.4135 11.8414 22.8271 11.8414 22.2157V21.6036C11.8414 20.572 11.431 19.5818 10.7025 18.8533L10.0708 18.2228Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11.4529 19.9103H16.8395H11.4529ZM14.1468 3.77249V4.92519V3.77249ZM21.4826 6.81101L20.6676 7.62597L21.4826 6.81101ZM24.5211 14.1468H23.3684H24.5211ZM4.92516 14.1468H3.77246H4.92516ZM7.62594 7.62597L6.81098 6.81101L7.62594 7.62597ZM10.0708 18.2228C9.26493 17.4167 8.71616 16.3897 8.4939 15.2717C8.27164 14.1538 8.38586 12.995 8.82213 11.9419C9.2584 10.8889 9.99713 9.98883 10.9449 9.35559C11.8927 8.72236 13.0069 8.38437 14.1468 8.38437C15.2866 8.38437 16.4009 8.72236 17.3486 9.35559C18.2964 9.98883 19.0351 10.8889 19.4714 11.9419C19.9077 12.995 20.0219 14.1538 19.7996 15.2717C19.5774 16.3897 19.0286 17.4167 18.2227 18.2228L17.591 18.8533C17.2299 19.2145 16.9435 19.6433 16.7481 20.1152C16.5527 20.5871 16.4521 21.0929 16.4522 21.6036V22.2157C16.4522 22.8271 16.2093 23.4135 15.7769 23.8459C15.3446 24.2782 14.7582 24.5211 14.1468 24.5211C13.5353 24.5211 12.949 24.2782 12.5166 23.8459C12.0843 23.4135 11.8414 22.8271 11.8414 22.2157V21.6036C11.8414 20.572 11.431 19.5818 10.7025 18.8533L10.0708 18.2228Z" stroke="white" strokeWidth="2" stroke-linecap="round" strokeLineJoin="round"/>
                         </svg>
 
                         <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@ export default function Header() {
 
                 {/* Toggle */}
                 <button onClick={handleClick} className="md:hidden">
-                    {active ? <span className="fixed top-8 right-10 text-white z-50 text-7xl rotate-45">+</span> : <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>}
+                    {active ? <span className="fixed top-8 right-10 text-white z-50 text-7xl rotate-45">+</span> : <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" strokeLineJoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>}
                 </button>
 
                 <div

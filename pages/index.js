@@ -1,11 +1,12 @@
 import Image from 'next/image'
+import Project from '../components/project'
 import profilePic from '../public/profile.png'
 
 export default function Home() {
   return (
         <>
-            <section className="mb-10">
-                <div className="grid md:grid-cols-2 grid-cols-1">
+            <section className="mb-20 pb-20 border-b-2 border-black">
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-10 md:gap-20 lg:gap-0">
 
                     <div>
                         <div className="flex flex-col space-y-10">
@@ -24,12 +25,13 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div class="justify-self-end">
-                        <Image src={profilePic} alt="Mohammed Sohail" width={490} height={507}></Image>
+                    <div className="justify-self-center my-auto">
+                        <Image src={profilePic} alt="Mohammed Sohail" width={425} height={440}></Image>
                     </div>
 
                 </div>
             </section>
+            <Project></Project>
         </>
   )
 }

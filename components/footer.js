@@ -4,7 +4,7 @@ import SpotifyLogo from "../public/spotify.png"
 export default function Footer() {
     return (
 
-        <footer>
+        <footer className="border-t-2 pt-10 mt-10 border-black">
 
             <div className="grid grid-flow-row gap-y-10 md:gap-y-0 grid-cols-1 md:grid-cols-2 mb-20">
 

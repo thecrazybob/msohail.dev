@@ -4,9 +4,11 @@ import Header from '../components/header'
 
 export default function Layout({ children }) {
     return (
-        <div className="w-full max-w-7xl mx-auto px-10 bg-white">
+        <div className="container mx-auto px-10 bg-white-background">
+
             <Head>
                 <title>Mohammed Sohail</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="preconnect" href="https://fonts.googleapis.com"></link>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
@@ -18,6 +20,7 @@ export default function Layout({ children }) {
             {children}
 
             <Footer></Footer>
+
         </div>
     )
 }
