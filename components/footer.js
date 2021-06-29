@@ -6,12 +6,12 @@ export default function Footer() {
 
         <footer>
 
-            <div class="grid grid-flow-row gap-y-10 md:gap-y-0 grid-cols-1 md:grid-cols-2 mb-20">
+            <div className="grid grid-flow-row gap-y-10 md:gap-y-0 grid-cols-1 md:grid-cols-2 mb-20">
 
-                <div class="flex flex-col space-y-6">
-                    <div class="flex flex-col space-y-6">
-                        <div class="border-b border-black max-w-max">Currently listening to</div>
-                        <div class="flex space-x-2 items-center">
+                <div className="flex flex-col space-y-6">
+                    <div className="flex flex-col space-y-6">
+                        <div className="border-b border-black max-w-max">Currently listening to</div>
+                        <div className="flex space-x-2 items-center">
                             <Image src={SpotifyLogo} height={32} width={107} alt="Spotify Logo"></Image>
                             <div> - Not Playing</div>
                         </div>

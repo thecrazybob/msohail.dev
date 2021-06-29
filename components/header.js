@@ -50,48 +50,49 @@ export default function Header() {
                 <button onClick={handleClick} className="md:hidden">
                     {active ? <span className="fixed top-8 right-10 text-white z-50 text-7xl rotate-45">+</span> : <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>}
                 </button>
+
                 <div
                   className={`${
                     active ? 'h-full w-full fixed z-40 left-0 top-0 bg-opacity-80 bg-black overflow-hidden transition duration-150' : 'hidden'
                   }`}
                 >
                     <div className="flex flex-col h-full justify-center items-center text-gray-200 text-5xl space-y-6">
-                        <div class="hover:border-b transition-all duration-300 ease-in-out">
+                        <div className="hover:border-b transition-all duration-300 ease-in-out">
                             <Link href="/">
                                 <a>
                                     Home
                                 </a>
                             </Link>
                         </div>
-                        <div class="hover:border-b transition ease-in-out">
+                        <div className="hover:border-b transition ease-in-out">
                             <Link href="/">
                                 <a>
                                     About
                                 </a>
                             </Link>
                         </div>
-                        <div class="hover:border-b transition ease-in-out">
+                        <div className="hover:border-b transition ease-in-out">
                             <Link href="/">
                                 <a>
                                     Work
                                 </a>
                             </Link>
                         </div>
-                        <div class="hover:border-b transition ease-in-out">
+                        <div className="hover:border-b transition ease-in-out">
                             <Link href="/">
                                 <a>
                                     Uses
                                 </a>
                             </Link>
                         </div>
-                        <div class="hover:border-b transition ease-in-out">
+                        <div className="hover:border-b transition ease-in-out">
                             <Link href="/">
                                 <a>
                                     Articles
                                 </a>
                             </Link>
                         </div>
-                        <div class="hover:border-b transition ease-in-out">
+                        <div className="hover:border-b transition ease-in-out">
                             <Link href="/contact">
                                 <a>
                                     Contact
