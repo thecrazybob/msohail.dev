@@ -1,6 +1,9 @@
 import Image from 'next/image'
-import Project from '../components/project'
+import FeaturedProject from '../components/featured-project'
+import LatestArticles from '../components/latest-articles'
+import Newsletter from '../components/newsletter'
 import profilePic from '../public/profile.png'
+
 
 export default function Home() {
   return (
@@ -31,7 +34,9 @@ export default function Home() {
 
                 </div>
             </section>
-            <Project></Project>
+            <FeaturedProject></FeaturedProject>
+            <LatestArticles></LatestArticles>
+            <Newsletter></Newsletter>
         </>
   )
 }

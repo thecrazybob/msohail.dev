@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
         fontFamily: {
-            sans: ['"DM Sans"', 'sans-serif']
+            sans: ['"DM Sans"', 'sans-serif'],
+            body: ['"Inter"', 'sans-serif']
         },
         colors: {
             custom: {
