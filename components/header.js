@@ -22,10 +22,10 @@ export default function Header() {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center space-x-6">
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/"><a>About</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/"><a>Work</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/"><a>Uses</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/"><a>Articles</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/about"><a>About</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/work"><a>Work</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/uses"><a>Uses</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/articles"><a>Articles</a></Link></div>
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/contact"><a>Contact</a></Link></div>
 
                     {/* Dark mode switcher */}
@@ -65,28 +65,28 @@ export default function Header() {
                             </Link>
                         </div>
                         <div className="hover:border-b transition ease-in-out">
-                            <Link href="/">
+                            <Link href="/about">
                                 <a>
                                     About
                                 </a>
                             </Link>
                         </div>
                         <div className="hover:border-b transition ease-in-out">
-                            <Link href="/">
+                            <Link href="/work">
                                 <a>
                                     Work
                                 </a>
                             </Link>
                         </div>
                         <div className="hover:border-b transition ease-in-out">
-                            <Link href="/">
+                            <Link href="/uses">
                                 <a>
                                     Uses
                                 </a>
                             </Link>
                         </div>
                         <div className="hover:border-b transition ease-in-out">
-                            <Link href="/">
+                            <Link href="/articles">
                                 <a>
                                     Articles
                                 </a>
