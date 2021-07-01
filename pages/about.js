@@ -49,7 +49,7 @@ export default function About() {
 
                 <div>
                     <h3 className="text-3xl border-b-2 max-w-max border-black">Languages that I speak:</h3>
-                    <ul class="my-8">
+                    <ul className="my-8">
                         <li>Turkish (elementary proficiency)</li>
                         <li>English (fluent)</li>
                         <li>Urdu (fluent)</li>

@@ -1,7 +1,12 @@
 import Image from "next/image"
 import SpotifyLogo from "../public/spotify.png"
+import useSWR from 'swr';
+import fetcher from '../lib/fetcher';
 
 export default function Footer() {
+
+    const { data } = useSWR('/api/spotify', fetcher);
+
     return (
 
         <footer className="border-t-2 pt-10 my-10 border-black">
@@ -13,7 +18,11 @@ export default function Footer() {
                         <div className="border-b border-black max-w-max">Currently listening to</div>
                         <div className="flex space-x-2 items-center">
                             <Image src={SpotifyLogo} height={32} width={107} alt="Spotify Logo"></Image>
-                            <div> - Not Playing</div>
+                            <div>- {
+                            data?.songUrl ?
+                            (<><a href={data.songUrl}>{data.title}</a> by {data.artist ?? 'Spotify'}</>)
+                            : ("Not Playing")
+                            }</div>
                         </div>
                     </div>
 

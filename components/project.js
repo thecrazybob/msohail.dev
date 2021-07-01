@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Project(props) {
     return (
-        <div className={`${ props.featured == true ? "border-b-2 border-black" : "pt-20" } grid grid-cols-1 lg:grid-cols-2 gap-16 pb-20`}>
+        <div className={`${ props.featured == true ? "border-b-2 border-black" : "" } grid grid-cols-1 lg:grid-cols-2 gap-16 pb-20 ${ props.removePadding ? "" : "pt-20"}`}>
             <div className="flex flex-col space-y-5">
                 { props.featured == true ? <h2 className="text-4xl mb-5">Featured Project</h2> : "" }
 
@@ -16,7 +16,7 @@ export default function Project(props) {
                 <div className="flex space-x-4">
                     { Array.isArray(props.tech) ?
                         props.tech.map (icon => (
-                            <div className="flex drop-shadow-md filter bg-white p-4 rounded-full w-14 items-center justify-center">
+                            <div key={icon} className="flex drop-shadow-md filter bg-white p-4 rounded-full w-14 items-center justify-center">
                                 <Image src={icon}></Image>
                             </div>
                         ))
