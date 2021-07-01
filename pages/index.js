@@ -1,9 +1,14 @@
 import Image from 'next/image'
-import FeaturedProject from '../components/featured-project'
+import FeaturedProject from '../components/project'
 import LatestArticles from '../components/latest-articles'
 import Newsletter from '../components/newsletter'
 import profilePic from '../public/profile.png'
-
+import weqayaLogo from '../public/project-weqaya.png'
+import laravelLogo from '../public/laravel.svg'
+import alpinejsLogo from '../public/alpinejs.svg'
+import tailwindcssLogo from '../public/tailwindcss.svg'
+import twillLogo from '../public/twill.svg'
+import livewireLogo from '../public/livewire.svg'
 
 export default function Home() {
   return (
@@ -34,7 +39,7 @@ export default function Home() {
 
                 </div>
             </section>
-            <FeaturedProject></FeaturedProject>
+            <FeaturedProject featured={true} title="Weqaya.ae" description="I designed and developed the website using cutting-edge technologies. The content is retrieved from a headless-CMS and the COVID-19 cases are retrieved using APIs." timeframe="< 1 month" image={weqayaLogo} tech={[laravelLogo,alpinejsLogo,tailwindcssLogo,twillLogo,livewireLogo]}></FeaturedProject>
             <LatestArticles></LatestArticles>
             <Newsletter></Newsletter>
         </>
