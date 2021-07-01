@@ -19,7 +19,7 @@ import stripeLogo from '../public/stripe.svg'
 import phpLogo from '../public/php.svg'
 import codeigniterLogo from '../public/codeigniter.svg'
 import springbootLogo from '../public/springboot.svg'
-import vercelLogo from '../public/vercel.svg'
+import vercelLogo from '../public/vercel-small.svg'
 import reactLogo from '../public/react.svg'
 import whmcsLogo from '../public/whmcs.svg'
 import cpanelLogo from '../public/cpanel.svg'
@@ -34,13 +34,13 @@ export default function Work() {
         <>
         <TitleBar title="My Work" description="Some of the work that I have done over the past few years"></TitleBar>
         <div className="flex flex-col divide-y-2 divide-black">
-        <Project title="01 / WEQAYA.AE" description="I designed and developed the website using cutting-edge technologies. The content is retrieved from a headless-CMS and the COVID-19 cases are retrieved using APIs." tech={[laravelLogo, alpinejsLogo, tailwindcssLogo, twillLogo, livewireLogo]} timeframe="< 1 month" image={weqayaLogo}></Project>
-        <Project title="02 / BLESSHOST.COM" description="I designed the frontend views and connected it to the order system. The project also involved setting up servers which hosted 100’s of websites." tech={[laravelLogo, whmcsLogo, bootstrapLogo, cpanelLogo, ubuntuLogo, nginxLogo, cloudflareLogo]} timeframe="> 1 year" image={blesshostLogo}></Project>
-        <Project title="03 / TRBEI.COM" description="The project included the development of the sales pages as well as the development of a customized user dashboard and game checkout process." tech={[laravelLogo, bootstrapLogo, wordpressLogo]} timeframe="< 3 months" image={trbeiLogo}></Project>
-        <Project title="04 / CASCADEVIRTUAL" description="This project involved the development of a customer dashboard and another dashboard for virtual assistants." tech={[phpLogo, codeigniterLogo, stripeLogo]} timeframe="< 1 month" image={cascadevirtualLogo}></Project>
-        <Project title="05 / BILTRADER" description="A classified web app meant for the members of Bilkent University. The app was made as a single page React application connected to Spring Boot via APIs" tech={[reactLogo, vercelLogo, awsLogo, springbootLogo, nextjsLogo]} timeframe="< 1 month" image={biltraderLogo}></Project>
-        <Project title="06 / LARAVEL WHMCS PACKAGE" description="A Laravel package which helps connect to WHMCS API. The package is open-sourced on GitHub." tech={[laravelLogo, whmcsLogo, phpLogo]} timeframe="< 1 month" image={laravelwhmcsLogo}></Project>
-        <Project title="07 / TESOL CERTIFICATE GENERATOR" description="This application was used to generate certificates for the attendes and presentators of TESOL Arabia 2020" tech={[laravelLogo, phpLogo, wordpressLogo]} timeframe="< 1 week" image={tesolLogo}></Project>
+        <Project title="01 / WEQAYA.AE" linkLabel="Visit the website" linkUrl="https://www.blesshost.com" description="I designed and developed the website using cutting-edge technologies. The content is retrieved from a headless-CMS and the COVID-19 cases are retrieved using APIs." tech={[laravelLogo, alpinejsLogo, tailwindcssLogo, twillLogo, livewireLogo]} timeframe="< 1 month" image={weqayaLogo}></Project>
+        <Project title="02 / BLESSHOST.COM" linkLabel="Visit the website" linkUrl="https://www.blesshost.com" description="I designed the frontend views and connected it to the order system. The project also involved setting up servers which hosted 100’s of websites." tech={[laravelLogo, whmcsLogo, bootstrapLogo, cpanelLogo, ubuntuLogo, nginxLogo, cloudflareLogo]} timeframe="> 1 year" image={blesshostLogo}></Project>
+        <Project title="03 / TRBEI.COM" linkLabel="Visit the website" linkUrl="https://www.blesshost.com" description="The project included the development of the sales pages as well as the development of a customized user dashboard and game checkout process." tech={[laravelLogo, bootstrapLogo, wordpressLogo]} timeframe="< 3 months" image={trbeiLogo}></Project>
+        <Project title="04 / CASCADEVIRTUAL" linkLabel="Visit the website" linkUrl="https://www.blesshost.com" description="This project involved the development of a customer dashboard and another dashboard for virtual assistants." tech={[phpLogo, codeigniterLogo, stripeLogo]} timeframe="< 1 month" image={cascadevirtualLogo}></Project>
+        <Project title="05 / BILTRADER" linkLabel="Visit the website" linkUrl="https://www.blesshost.com" description="A classified web app meant for the members of Bilkent University. The app was made as a single page React application connected to Spring Boot via APIs" tech={[reactLogo, vercelLogo, awsLogo, springbootLogo, nextjsLogo]} timeframe="< 1 month" image={biltraderLogo}></Project>
+        <Project title="06 / LARAVEL WHMCS PACKAGE" linkLabel="Visit the website" linkUrl="https://www.blesshost.com" description="A Laravel package which helps connect to WHMCS API. The package is open-sourced on GitHub." tech={[laravelLogo, whmcsLogo, phpLogo]} timeframe="< 1 month" image={laravelwhmcsLogo}></Project>
+        <Project title="07 / TESOL CERTIFICATE GENERATOR" linkLabel="See the source code" linkUrl="https://www.blesshost.com" description="This application was used to generate certificates for the attendes and presentators of TESOL Arabia 2020" tech={[laravelLogo, phpLogo, wordpressLogo]} timeframe="< 1 week" image={tesolLogo}></Project>
         <Project title="08 / WORDPRESS &amp; LARAVEL" description="From simple blogs to complex dashboards, I have worked on numerous WordPress and Laravel websites over the 8+ years." tech="A wide variety of WordPress themes and plugins and extensive Laravel packages" timeframe="2013 - Now" image={wordpresslaravelLogo}></Project>
 
         </div>

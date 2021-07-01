@@ -30,12 +30,16 @@ export default function Project(props) {
 
                 <span>{ props.timeframe }</span>
 
-                <span className="pt-6 border-b border-black max-w-max font-medium tracking-wide"><Link href="/work"><a>View of all my work ↗</a></Link></span>
-            </div>
+                { props.linkLabel ? (
+                <span className="pt-6 border-b border-black max-w-max font-medium tracking-wide"><Link href={props.featured ? "/work" : props.linkUrl}><a>{ props.featured ? "View of all my work" : props.linkLabel } ↗</a></Link></span>
+                ) : ""}
+                </div>
 
             <div className="border-black border-4 bg-white justify-center rounded-xl h-96" style={{ position: 'relative'}}>
-                <div className="flex h-full justify-center items-center px-16">
-                    <Image src={props.image} width={465} height={114}></Image>
+                <div className="flex justify-center h-full items-center">
+                    <div className="w-4/6">
+                        <Image src={props.image}></Image>
+                    </div>
                 </div>
             </div>
 
