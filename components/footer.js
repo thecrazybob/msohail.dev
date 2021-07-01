@@ -9,15 +9,15 @@ export default function Footer() {
 
     return (
 
-        <footer className="border-t-2 pt-10 my-10 border-black">
+        <footer className="border-t-2 pt-10 my-10 border-black dark:border-white">
 
             <div className="grid grid-flow-row gap-y-10 md:gap-y-0 grid-cols-1 md:grid-cols-2 mb-20">
 
                 <div className="flex flex-col space-y-6">
                     <div className="flex flex-col space-y-6">
-                        <div className="border-b border-black max-w-max">Currently listening to</div>
+                        <div className="border-b border-black dark:border-white max-w-max">Currently listening to</div>
                         <div className="flex space-x-2 items-center">
-                            <Image src={SpotifyLogo} height={32} width={107} alt="Spotify Logo"></Image>
+                            <Image src={SpotifyLogo} height={32} width={107} className="dark:invert" alt="Spotify Logo"></Image>
                             <div>- {
                             data?.isPlaying ?
                             (<><a href={data.songUrl}>{data.title}</a> by {data.artist ?? 'Spotify'}</>)
@@ -27,8 +27,8 @@ export default function Footer() {
                     </div>
 
                     <div className="flex flex-col space-y-6">
-                        <div className="border-b border-black max-w-max">Follow me on social media</div>
-                        <div className="flex space-x-4">
+                        <div className="border-b border-black dark:border-white max-w-max">Follow me on social media</div>
+                        <div className="flex space-x-4 dark:invert">
 
                             <a href="https://www.twitter.com/itscrazybob" target="_blank">
                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@ export default function Footer() {
 
                 <div className="flex flex-col md:justify-self-end space-y-4">
 
-                    <div className="text-3xl">I am available to work<br></br> on your project <svg className="inline" width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className="text-3xl">I am available to work<br></br> on your project <svg className="inline dark:invert" width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M11.9885 0L8.98846 0L8.98846 18.3146L2.05385 11.3126L0 13.4097L10.4885 24L21 13.4097L18.9 11.3126L11.9885 18.3146L11.9885 0Z" fill="#181717"/>
 </svg>
 </div>

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function LatestArticles() {
     return (
-        <section className="my-16 font-body border-b-2 border-black pb-20 text-xl">
+        <section className="my-16 font-body border-b-2 border-black dark:border-white pb-20 text-xl">
             <h2 className="text-4xl mb-10 font-sans">Latest Articles</h2>
 
             <div className="flex flex-col space-y-4">

@@ -21,18 +21,18 @@ export default function Header() {
     return (
         <header className="flex justify-between items-center mt-10 mb-32">
                 {/* Logo */}
-                <div className="w-56 -mb-2 md:w-full">
+                <div className="w-56 -mb-2 md:w-full dark:invert">
                     <Link href="/"><a><Image src={Logo} alt="Mohammed Sohail" /></a></Link>
                 </div>
                 {/* end of Logo */}
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center space-x-6">
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/about"><a>About</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/work"><a>Work</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/uses"><a>Uses</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/articles"><a>Articles</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black"><Link href="/contact"><a>Contact</a></Link></div>
+                <div className="hidden md:flex items-center space-x-6 dark:text-gray-200">
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/about"><a>About</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/work"><a>Work</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/uses"><a>Uses</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/articles"><a>Articles</a></Link></div>
+                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/contact"><a>Contact</a></Link></div>
 
                     {/* Dark mode switcher */}
                     <div className="flex">

@@ -13,18 +13,18 @@ import livewireLogo from '../public/livewire.svg'
 export default function Home() {
   return (
         <>
-            <section className="mb-20 pb-20 border-b-2 border-black">
+            <section className="mb-20 pb-20 border-b-2 border-black dark:border-white">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-10 md:gap-20 lg:gap-0">
 
                     <div>
-                        <div className="flex flex-col space-y-10">
+                        <div className="flex flex-col space-y-10 dark:text-gray-200">
 
                             <h2 className="text-5xl">Hi there! 👋</h2>
 
                             <h2 className="text-5xl">I'm Mohammed Sohail, a full stack web developer.</h2>
                         </div>
 
-                        <div className="flex text-gray-700 flex-col my-10 space-y-5 text-2xl tracking-tight">
+                        <div className="flex text-gray-700 dark:text-gray-400 flex-col my-10 space-y-5 text-2xl tracking-tight">
 
                             <p>I thoughtfully design, expertly build and carefully maintain meaningful, results-driven websites and applications that are a pleasure to use. I mainly develop web applications in Laravel/PHP alongside Next.js, Livewire or Inertia.</p>
 
