@@ -31,7 +31,7 @@ export default function Project(props) {
                 <span>{ props.timeframe }</span>
 
                 { props.linkLabel ? (
-                <span className="pt-6 border-b border-black dark:border-white max-w-max font-medium tracking-wide"><Link href={props.featured ? "/work" : props.linkUrl}><a>{ props.featured ? "View of all my work" : props.linkLabel } ↗</a></Link></span>
+                <span className="pt-6 border-b border-black dark:border-white max-w-max font-medium tracking-wide"><Link href={props.featured ? "/work" : props.linkUrl}><a rel="nofollow">{ props.featured ? "View of all my work" : props.linkLabel } ↗</a></Link></span>
                 ) : ""}
                 </div>
 

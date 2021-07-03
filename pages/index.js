@@ -40,8 +40,8 @@ export default function Home() {
                 </div>
             </section>
             <FeaturedProject linkLabel="View all of my work" linkUrl="/work" removePadding={true} featured={true} title="Weqaya.ae" description="I designed and developed the website using cutting-edge technologies. The content is retrieved from a headless-CMS and the COVID-19 cases are retrieved using APIs." timeframe="< 1 month" image={weqayaLogo} tech={[laravelLogo,alpinejsLogo,tailwindcssLogo,twillLogo,livewireLogo]}></FeaturedProject>
-            <LatestArticles></LatestArticles>
-            <Newsletter></Newsletter>
+            {/* <LatestArticles></LatestArticles> */}
+            <Newsletter className="mt-20"></Newsletter>
         </>
   )
 }

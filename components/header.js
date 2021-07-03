@@ -36,7 +36,7 @@ export default function Header() {
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/about"><a>About</a></Link></div>
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/work"><a>Work</a></Link></div>
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/uses"><a>Uses</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/articles"><a>Articles</a></Link></div>
+                    {/* <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/articles"><a>Articles</a></Link></div> */}
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/contact"><a>Contact</a></Link></div>
 
                     {/* Dark mode switcher */}
@@ -101,13 +101,13 @@ export default function Header() {
                                 </a>
                             </Link>
                         </div>
-                        <div className="hover:border-b transition ease-in-out">
+                        {/* <div className="hover:border-b transition ease-in-out">
                             <Link href="/articles">
                                 <a>
                                     Articles
                                 </a>
                             </Link>
-                        </div>
+                        </div> */}
                         <div className="hover:border-b transition ease-in-out">
                             <Link href="/contact">
                                 <a>
