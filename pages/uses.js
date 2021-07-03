@@ -52,33 +52,33 @@ export default function Uses() {
                 <h2 className="text-4xl mb-10 font-sans">Desktop Apps</h2>
 
                 <div className="flex flex-col space-y-6">
-                    <AppBox image={chromeIcon} title="Google Chrome" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={sparkIcon} title="Spark" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={bearIcon} title="Bear" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={milanoteIcon} title="Milanote" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={figmaIcon} title="Figma" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={telegramIcon} title="Telegram" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={discordIcon} title="Discord" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={slackIcon} title="Slack" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={trelloIcon} title="Trello" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={todoistIcon} title="Todoist" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={insomniaIcon} title="Insomnia" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={rectangleIcon} title="Rectangle" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={rocketIcon} title="Rocket" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={bartenderIcon} title="Bartender" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={sipIcon} title="Sip" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={cleanshotIcon} title="CleanShot" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={handmirrorIcon} title="Hand Mirror" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={textsniperIcon} title="TextSniper" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={homebrewIcon} title="Homebrew" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={tinkerwellIcon} title="Tinkerwell" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={vscodeIcon} title="VSCode" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={authyIcon} title="Authy" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={alfredIcon} title="Alfred" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={onepasswordIcon} title="1Password" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={fbarIcon} title="F-Bar" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={tableplusIcon} title="TablePlus" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
-                    <AppBox image={termiusIcon} title="Termius" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tortor, et, aliquam sagittis tellus." />
+                    <AppBox image={chromeIcon} title="Google Chrome" description="My favorite browser for both dev and general use. I use quite a lot of extensions that are listed on the bottom of this page" />
+                    <AppBox image={sparkIcon} title="Spark" description="My favorite mail app that I use on my macOS and iOS. Its a life changer!" />
+                    <AppBox image={bearIcon} title="Bear" description="Markdown note-taking app for my own articles, university stuff and just usual notes" />
+                    <AppBox image={milanoteIcon} title="Milanote" description="The note-taking app I use for projects. Highly recommended for brainstorming and mind maps"  />
+                    <AppBox image={figmaIcon} title="Figma" description="For mockups and designing web sites like this one for example" />
+                    <AppBox image={telegramIcon} title="Telegram" description="My favorite messaging app that actually cares about the privacy aspect" />
+                    <AppBox image={discordIcon} title="Discord" description="For hanging out with developer communites and sometimes gaming communities" />
+                    <AppBox image={slackIcon} title="Slack" description="For client projects that are already on Slack" />
+                    <AppBox image={trelloIcon} title="Trello" description="For keeping track of tasks where multiple people are working together" />
+                    <AppBox image={todoistIcon} title="Todoist" description="To keep tracking of my personal todos, shopping lists and goals" />
+                    <AppBox image={insomniaIcon} title="Insomnia" description="For making API requests and testing the APIs that I make" />
+                    <AppBox image={rectangleIcon} title="Rectangle" description="Resize macOS windows using shortcuts" />
+                    <AppBox image={rocketIcon} title="Rocket" description="When I need to type an emoji" />
+                    <AppBox image={bartenderIcon} title="Bartender" description="Cleans up my macOS's application bar" />
+                    <AppBox image={sipIcon} title="Sip" description="Simple and cool color picker for macOS" />
+                    <AppBox image={cleanshotIcon} title="CleanShot" description="It has all of the things that are missing in the default macOS screenshot utility" />
+                    <AppBox image={handmirrorIcon} title="Hand Mirror" description="A digital mirror before I go into those Zoom meetings" />
+                    <AppBox image={textsniperIcon} title="TextSniper" description="An OCR tool when copying isn't allowed" />
+                    <AppBox image={homebrewIcon} title="Homebrew" description="Package management for macOS" />
+                    <AppBox image={tinkerwellIcon} title="Tinkerwell" description="For debugging and testing out live PHP/Laravel code" />
+                    <AppBox image={vscodeIcon} title="VSCode" description="My favorite IDE for coding PHP, Javascript, Python and so on..." />
+                    <AppBox image={authyIcon} title="Authy" description="2FA manager that is cross-platform and secured with a password" />
+                    <AppBox image={alfredIcon} title="Alfred" description="Alfred is one of my favorite Mac productivity tools. I use it with quite a lot of extensions" />
+                    <AppBox image={onepasswordIcon} title="1Password" description="My favorite password manager so I don't have to remember them by heart" />
+                    <AppBox image={fbarIcon} title="F-Bar" description="For managing the sites I have hosted via Laravel Forge" />
+                    <AppBox image={tableplusIcon} title="TablePlus" description="For managing all types of databases" />
+                    <AppBox image={termiusIcon} title="Termius" description="SSH client that works both on my macOS and iOS" />
                 </div>
 
             </div>

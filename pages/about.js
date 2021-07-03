@@ -31,7 +31,7 @@ export default function About() {
                 <p>The success and satisfaction I have in this job is tremendous and keeps that passion burningly alive.</p>
             </div>
 
-            <h2 className="text-3xl border-b-2 border-black my-10 max-w-max">Skills</h2>
+            <h2 className="text-3xl border-b-2 border-black dark:border-white my-10 max-w-max">Skills</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                 <SkillBox logo={laravelLogo} title="Laravel" description="My PHP Framework of choice"></SkillBox>
