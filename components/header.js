@@ -58,7 +58,6 @@ export default function Header() {
                         onChange={darkMode.toggle}
                         checked={darkMode.value}
                         size={90}
-                        className="md:hidden"
                     />
 
                     {/* Toggle */}

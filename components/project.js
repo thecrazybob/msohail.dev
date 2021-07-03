@@ -38,7 +38,7 @@ export default function Project(props) {
             <div className="border-black dark:border-white border-4 bg-white justify-center rounded-xl h-96" style={{ position: 'relative'}}>
                 <div className="flex justify-center h-full items-center">
                     <div className="w-4/6">
-                        <Image src={props.image}></Image>
+                        <Image alt={props.title + " Logo"} src={props.image}></Image>
                     </div>
                 </div>
             </div>
