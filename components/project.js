@@ -17,7 +17,7 @@ export default function Project(props) {
                     { Array.isArray(props.tech) ?
                         props.tech.map ((icon, index) => (
                             <div key={index} className="flex drop-shadow-md filter bg-white p-4 rounded-full w-14 items-center justify-center">
-                                <Image src={icon}></Image>
+                                <Image alt="Technology icon" src={icon}></Image>
                             </div>
                         ))
                         :
