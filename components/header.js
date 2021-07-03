@@ -40,7 +40,7 @@ export default function Header() {
                     <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/contact"><a>Contact</a></Link></div>
 
                     {/* Dark mode switcher */}
-                    <div className="flex dark:border-white border rounded-full p-1">
+                    <div role="presentation" className="flex dark:border-white border rounded-full p-1">
                         <DarkModeToggle
                           onChange={darkMode.toggle}
                           checked={darkMode.value}
