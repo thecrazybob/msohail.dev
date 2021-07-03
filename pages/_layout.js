@@ -32,6 +32,8 @@ export default function Layout({ children }) {
                 <meta name="msapplication-TileColor" content="#ffffff" />
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#ffffff"></meta>
+
+                <meta name="description" content="I'm Mohammed Sohail, a full stack web developer. I thoughtfully design, expertly build and carefully maintain meaningful, results-driven websites and applications that are a pleasure to use. I mainly develop web applications in Laravel/PHP alongside Next.js, Livewire or Inertia." />
             </Head>
 
             <Header></Header>
