@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.53",
     "isomorphic-unfetch": "^3.1.0",
     "mailgo": "^0.12.2",
     "next": "latest",
+    "patch-package": "^6.4.7",
     "querystring": "^0.2.1",
     "react": "^17.0.2",
     "react-dark-mode-toggle": "^0.2.0",
