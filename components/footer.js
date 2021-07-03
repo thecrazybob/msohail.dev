@@ -63,7 +63,7 @@ export default function Footer() {
 
                     <div className="text-3xl"><a href="mailto:hey@thecrazybob.com">hey@thecrazybob.com</a></div>
 
-                    <div className="font-light hover:border-b hover:border-black max-w-max transition-all duration-150 ease-in-out"><a href="https://cv.thecrazybob.com" target="_blank">View Resume ↗</a></div>
+                    <div className="font-light hover:border-b hover:border-black dark:hover:border-white max-w-max transition-all duration-150 ease-in-out"><a href="https://cv.thecrazybob.com" target="_blank">View Resume ↗</a></div>
 
             </div>
 

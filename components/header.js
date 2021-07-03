@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Logo from '../public/logo.svg'
+import FaviconLogo from  '../public/favicon/favicon-96x96.png'
 import { useState } from 'react'
 import DarkModeToggle from "react-dark-mode-toggle";
 import useDarkMode from 'use-dark-mode';
-
 
 export default function Header() {
 
@@ -21,8 +21,13 @@ export default function Header() {
     return (
         <header className="flex justify-between items-center mt-10 mb-32">
                 {/* Logo */}
-                <div className="w-56 -mb-2 md:w-full dark:invert">
-                    <Link href="/"><a><Image src={Logo} alt="Mohammed Sohail" /></a></Link>
+                <div className="flex items-center">
+                    <div className="hidden md:block dark:invert">
+                        <Link href="/"><a><Image src={Logo} alt="Mohammed Sohail" /></a></Link>
+                    </div>
+                    <div className="md:hidden dark:invert">
+                        <Link href="/"><a><Image src={FaviconLogo} alt="Mohammed Sohail" /></a></Link>
+                    </div>
                 </div>
                 {/* end of Logo */}
 
@@ -44,16 +49,23 @@ export default function Header() {
                     </div>
                     {/* end of Dark mode switcher */}
 
-
                 </div>
                 {/* End of Desktop Menu */}
 
                 {/* Mobile Menu */}
+                <div className="flex space-x-4 items-center md:hidden">
+                    <DarkModeToggle
+                        onChange={darkMode.toggle}
+                        checked={darkMode.value}
+                        size={90}
+                        className="md:hidden"
+                    />
 
-                {/* Toggle */}
-                <button onClick={handleClick} className="md:hidden">
-                    {active ? <span className="fixed top-8 right-10 text-white z-50 text-7xl rotate-45">+</span> : <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" strokeLineJoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>}
-                </button>
+                    {/* Toggle */}
+                    <button onClick={handleClick}>
+                        {active ? <span className="relative text-white z-50 text-7xl rotate-45">+</span> : <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>}
+                    </button>
+                </div>
 
                 <div
                   className={`${
