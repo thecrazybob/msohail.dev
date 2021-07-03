@@ -1,7 +1,7 @@
 {
     "redirects": [
         {
-            "source": "cv.thecrazybob.com", "destination": "/cv.pdf"
+            "source": "https://cv.thecrazybob.com", "destination": "/cv.pdf"
         }
     ]
 }
