@@ -7,28 +7,28 @@ export default function LatestArticles() {
 
             <div className="flex flex-col space-y-4">
                 <div>
-                    <h4 className="font-medium border-b border-black max-w-max mb-4">An example article - 20th May 2021</h4>
+                    <h4 className="font-medium border-b border-black dark:border-white max-w-max mb-4">An example article - 20th May 2021</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac massa eros maecenas dis.</p>
                 </div>
                 <div>
-                    <h4 className="font-medium border-b border-black max-w-max mb-4">An example article - 20th May 2021</h4>
+                    <h4 className="font-medium border-b border-black dark:border-white max-w-max mb-4">An example article - 20th May 2021</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac massa eros maecenas dis.</p>
                 </div>
                 <div>
-                    <h4 className="font-medium border-b border-black max-w-max mb-4">An example article - 20th May 2021</h4>
+                    <h4 className="font-medium border-b border-black dark:border-white max-w-max mb-4">An example article - 20th May 2021</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac massa eros maecenas dis.</p>
                 </div>
                 <div>
-                    <h4 className="font-medium border-b border-black max-w-max mb-4">An example article - 20th May 2021</h4>
+                    <h4 className="font-medium border-b border-black dark:border-white max-w-max mb-4">An example article - 20th May 2021</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac massa eros maecenas dis.</p>
                 </div>
                 <div>
-                    <h4 className="font-medium border-b border-black max-w-max mb-4">An example article - 20th May 2021</h4>
+                    <h4 className="font-medium border-b border-black dark:border-white max-w-max mb-4">An example article - 20th May 2021</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac massa eros maecenas dis.</p>
                 </div>
             </div>
 
-            <div className="mt-10 border-b max-w-max border-black font-medium"><Link href="/articles"><a>View all of my articles ↗</a></Link></div>
+            <div className="mt-10 border-b max-w-max border-black dark:border-white font-medium"><Link href="/articles"><a>View all of my articles ↗</a></Link></div>
         </section>
     )
 }

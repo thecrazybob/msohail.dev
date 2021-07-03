@@ -48,7 +48,7 @@ export default function About() {
             <div className="grid md:grid-cols-2 mt-16">
 
                 <div>
-                    <h3 className="text-3xl border-b-2 max-w-max border-black">Languages that I speak:</h3>
+                    <h3 className="text-3xl border-b-2 max-w-max border-black dark:border-white">Languages that I speak:</h3>
                     <ul className="my-8">
                         <li>Turkish (elementary proficiency)</li>
                         <li>English (fluent)</li>
@@ -57,7 +57,7 @@ export default function About() {
                     </ul>
                 </div>
                 <div>
-                    <h3 className="text-3xl border-b-2 max-w-max border-black">Countries that I have been to:</h3>
+                    <h3 className="text-3xl border-b-2 max-w-max border-black dark:border-white">Countries that I have been to:</h3>
                     <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-5 gap-4 mt-8 justify-between">
                         <div className="flex justify-center filter shadow-md bg-white rounded-md p-4"><Image width={96} height={96} src={turkeyFlag}></Image></div>
                         <div className="flex justify-center filter shadow-md bg-white rounded-md p-4"><Image width={96} height={96} src={uaeFlag}></Image></div>
@@ -72,7 +72,7 @@ export default function About() {
             <div className="grid md:grid-cols-2">
 
                 <div className="text-xl">
-                    <h2 className="text-3xl border-b-2 border-black my-10 max-w-max">What am I doing right now?</h2>
+                    <h2 className="text-3xl border-b-2 border-black dark:border-white my-10 max-w-max">What am I doing right now?</h2>
                     <ul>
                         <li>Working as a part time developer to pay bills</li>
                         <li>Studying Computer Engineering in Bilkent University</li>
@@ -84,9 +84,9 @@ export default function About() {
 
                 <div>
 
-                    <h2 className="text-3xl border-b-2 border-black my-10 max-w-max">Find me on social media</h2>
+                    <h2 className="text-3xl border-b-2 border-black dark:border-white my-10 max-w-max">Find me on social media</h2>
 
-                    <div className="flex space-x-4">
+                    <div className="flex space-x-4 dark:invert">
                         <a href="https://www.twitter.com/itscrazybob" target="_blank">
                             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.9999 1.91992C11.8242 1.91992 1.91992 11.8242 1.91992 23.9999C1.91992 36.1756 11.8242 46.0799 23.9999 46.0799C36.1756 46.0799 46.0799 36.1756 46.0799 23.9999C46.0799 11.8242 36.1756 1.91992 23.9999 1.91992ZM34.7874 19.703C34.797 19.9295 34.8028 20.1599 34.8028 20.3913C34.8028 27.4166 29.4527 35.5199 19.6713 35.5199C16.6684 35.5199 13.8719 34.6396 11.5199 33.1305C11.9356 33.1804 12.357 33.2044 12.7881 33.2044C15.2802 33.2044 17.5737 32.3558 19.3919 30.9292C17.0649 30.887 15.1026 29.3462 14.4239 27.2361C14.7494 27.2985 15.0825 27.3321 15.4262 27.3321C15.911 27.3321 16.3814 27.2678 16.8258 27.1449C14.3951 26.6543 12.5625 24.5078 12.5625 21.9302C12.5625 21.9071 12.5625 21.885 12.5625 21.863C13.2796 22.2614 14.0985 22.5014 14.9711 22.5292C13.5426 21.574 12.6057 19.9478 12.6057 18.1026C12.6057 17.1282 12.8668 16.2153 13.3247 15.4281C15.9484 18.645 19.8671 20.7618 24.286 20.9846C24.1948 20.5948 24.1468 20.1897 24.1468 19.773C24.1468 16.8364 26.5276 14.4556 29.4652 14.4556C30.9945 14.4556 32.3759 15.1007 33.3455 16.1346C34.5561 15.8966 35.6956 15.454 36.7228 14.8454C36.3263 16.0857 35.4825 17.1282 34.3833 17.7868C35.4604 17.6562 36.4838 17.3721 37.439 16.9487C36.7266 18.0153 35.8252 18.9532 34.7874 19.703Z" fill="black"/>

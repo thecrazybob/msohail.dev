@@ -10,7 +10,7 @@ export default function TitleBar(props) {
                 <div className="text-2xl text-gray-800">{props.description}</div>
             </div>
 
-            <div className="mt-16">
+            <div className="mt-16 dark:invert">
                 <Image src={arrowDown} layout="fixed"></Image>
             </div>
 
