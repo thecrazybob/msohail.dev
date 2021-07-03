@@ -13,7 +13,7 @@ export default function Project(props) {
 
                 <span className="border-b max-w-max border-gray-400 text-gray-800 dark:text-gray-300">Tech used:</span>
 
-                <div className="flex space-x-4">
+                <div className="flex gap-4 flex-wrap">
                     { Array.isArray(props.tech) ?
                         props.tech.map (icon => (
                             <div key={icon} className="flex drop-shadow-md filter bg-white p-4 rounded-full w-14 items-center justify-center">
