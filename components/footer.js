@@ -20,7 +20,7 @@ export default function Footer() {
                             <Image src={SpotifyLogo} height={32} width={107} className="dark:invert" alt="Spotify Logo"></Image>
                             <div>{
                             data?.isPlaying ?
-                            (<><a href={data.songUrl}>{data.title}</a> by {data.artist ?? 'Spotify'}</>)
+                            (<><a className="font-medium hover:underline" href={data.songUrl}>{data.title}</a> by {data.artist ?? 'Spotify'}</>)
                             : ("Not Playing")
                             }</div>
                         </div>
