@@ -61,15 +61,15 @@ export default function Footer() {
 </svg>
 </div>
 
-                    <div className="text-3xl hover:underline"><a href="mailto:hey@thecrazybob.com">hey@thecrazybob.com</a></div>
+                    <div className="text-3xl hover:underline"><a href="mailto:hey@msohail.dev">hey@msohail.dev</a></div>
 
-                    <div className="font-light hover:border-b hover:border-black dark:hover:border-white max-w-max transition-all duration-150 ease-in-out"><a href="https://cv.thecrazybob.com">View Resume ↗</a></div>
-
-            </div>
+                    <div className="font-light hover:border-b hover:border-black dark:hover:border-white max-w-max transition-all duration-150 ease-in-out"><a href="https://cv.msohail.dev">View Resume ↗</a></div>
 
             </div>
 
-            <div className="flex justify-between">
+            </div>
+
+            <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row justify-between">
                 <div className="text-blue-600 dark:text-white">© 2021 Mohammed Sohail</div>
                 <div>Built with crafty intentions 🎨 in Ankara 🇹🇷</div>
             </div>

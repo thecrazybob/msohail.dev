@@ -1,4 +1,4 @@
-body {
+body:not(.dark) {
     @apply bg-custom-background
 }
 
