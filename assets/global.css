@@ -5,3 +5,7 @@ body:not(.dark) {
 body.dark {
     @apply bg-gray-800 text-gray-300
 }
+
+body.dark .prose strong {
+    @apply text-gray-200
+}

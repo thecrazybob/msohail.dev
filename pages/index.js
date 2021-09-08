@@ -10,8 +10,19 @@ import tailwindcssLogo from "../public/tailwindcss.svg";
 import twillLogo from "../public/twill.svg";
 import livewireLogo from "../public/livewire.svg";
 import { NextSeo } from "next-seo";
+import { getSortedPostsData } from "../lib/posts";
+import Date from "../components/date";
 
-export default function Home() {
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData();
+  return {
+    props: {
+      allPostsData,
+    },
+  };
+}
+
+export default function Home({ allPostsData }) {
   return (
     <>
       <NextSeo
@@ -71,7 +82,7 @@ export default function Home() {
           livewireLogo,
         ]}
       ></FeaturedProject>
-      {/* <LatestArticles></LatestArticles> */}
+      <LatestArticles allPostsData={allPostsData}></LatestArticles>
       <Newsletter></Newsletter>
     </>
   );
