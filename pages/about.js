@@ -183,7 +183,10 @@ export default function About() {
               </svg>
             </a>
 
-            <a href="https://www.linkedin.com/in/thecrazybob/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/mohammedcodes/"
+              target="_blank"
+            >
               <svg
                 width="48"
                 height="48"
