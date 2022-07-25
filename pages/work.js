@@ -1,12 +1,14 @@
 import TitleBar from "../components/title-bar";
 import Project from "../components/project";
 import weqayaLogo from "../public/project-weqaya.png";
+import bilhealLogo from "../public/bilheal.png";
 import blesshostLogo from "../public/blesshost.png";
 import trbeiLogo from "../public/trbei.png";
 import cascadevirtualLogo from "../public/cascadevirtual.png";
 import biltraderLogo from "../public/biltrader.png";
 import laravelwhmcsLogo from "../public/laravel-whmcs.png";
 import tesolLogo from "../public/tesol.png";
+import romarioLogo from "../public/romario.png";
 import wordpresslaravelLogo from "../public/wordpress-laravel.png";
 import laravelLogo from "../public/laravel.svg";
 import alpinejsLogo from "../public/alpinejs.svg";
@@ -77,7 +79,25 @@ export default function Work() {
           image={blesshostLogo}
         ></Project>
         <Project
-          title="03 / TRBEI.COM"
+          title="03 / BILHEAL.COM"
+          linkLabel="See the source code"
+          linkUrl="https://github.com/thecrazybob/cs319-project"
+          description="A proposed app for Bilkent University's health center to ease the interaction between patients and the health center's staff."
+          tech={[laravelLogo, livewireLogo, alpinejsLogo, tailwindcssLogo]}
+          timeframe="< 3 months"
+          image={bilhealLogo}
+        ></Project>
+        <Project
+          title="04 / ROMARIOSPORTS.COM"
+          linkLabel="Visit the website"
+          linkUrl="https://b2b.romariosports.com"
+          description="B2B portal for a major sports equipment brand in Dubai, UAE. Laravel Nova on the backend with Laravel Jetstream's Livewire version on the frontend."
+          tech={[laravelLogo, livewireLogo, alpinejsLogo, tailwindcssLogo]}
+          timeframe="< 6 months"
+          image={romarioLogo}
+        ></Project>
+        <Project
+          title="05 / TRBEI.COM"
           linkLabel="Visit the website"
           linkUrl="https://www.trbei.com"
           description="The project included the development of the sales pages as well as the development of a customized user dashboard and game checkout process."
@@ -86,7 +106,7 @@ export default function Work() {
           image={trbeiLogo}
         ></Project>
         <Project
-          title="04 / CASCADEVIRTUAL"
+          title="06 / CASCADEVIRTUAL"
           linkLabel="Visit the website"
           linkUrl="https://www.cascadevirtual.com"
           description="This project involved the development of a customer dashboard and another dashboard for virtual assistants."
@@ -95,7 +115,7 @@ export default function Work() {
           image={cascadevirtualLogo}
         ></Project>
         <Project
-          title="05 / BILTRADER"
+          title="07 / BILTRADER"
           linkLabel="See the source code"
           linkUrl="https://github.com/thecrazybob/biltrader-next"
           description="A classified web app meant for the members of Bilkent University. The app was made as a single page React application connected to Spring Boot via APIs"
@@ -104,7 +124,7 @@ export default function Work() {
           image={biltraderLogo}
         ></Project>
         <Project
-          title="06 / LARAVEL WHMCS PACKAGE"
+          title="08 / LARAVEL WHMCS PACKAGE"
           linkLabel="See the source code"
           linkUrl="https://github.com/thecrazybob/laravel-whmcs"
           description="A Laravel package which helps connect to WHMCS API. The package is open-sourced on GitHub."
@@ -113,7 +133,7 @@ export default function Work() {
           image={laravelwhmcsLogo}
         ></Project>
         <Project
-          title="07 / TESOL CERTIFICATE GENERATOR"
+          title="09 / TESOL CERTIFICATE GENERATOR"
           linkLabel="See the source code"
           linkUrl="https://github.com/thecrazybob/tesol-certificate"
           description="This application was used to generate certificates for the attendes and presentators of TESOL Arabia 2020"
@@ -122,7 +142,7 @@ export default function Work() {
           image={tesolLogo}
         ></Project>
         <Project
-          title="08 / WORDPRESS &amp; LARAVEL"
+          title="10 / WORDPRESS &amp; LARAVEL"
           description="From simple blogs to complex dashboards, I have worked on numerous WordPress and Laravel websites over the 8+ years."
           tech="A wide variety of WordPress themes and plugins and extensive Laravel packages"
           timeframe="2013 - Now"

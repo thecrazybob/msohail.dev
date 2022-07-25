@@ -228,6 +228,7 @@ export default function Uses() {
           <ul className="font-body text-xl">
             <li>1Password</li>
             <li>Alpine.js devtools</li>
+            <li>Livewire devtools</li>
             <li>React Developer Tools</li>
             <li>Redux DevTools</li>
             <li>Vue.js devtools</li>
