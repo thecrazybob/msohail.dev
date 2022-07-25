@@ -1,5 +1,6 @@
 import TitleBar from "../components/title-bar";
 import AppBox from "../components/app-box";
+import raycastIcon from "../public/applications/raycast.png";
 import chromeIcon from "../public/applications/chrome.png";
 import sparkIcon from "../public/applications/spark.png";
 import bearIcon from "../public/applications/bear.png";
@@ -21,8 +22,8 @@ import textsniperIcon from "../public/applications/textsniper.png";
 import homebrewIcon from "../public/applications/homebrew.png";
 import tinkerwellIcon from "../public/applications/tinkerwell.png";
 import vscodeIcon from "../public/applications/vscode.png";
+import phpstormIcon from "../public/applications/phpstorm.png";
 import authyIcon from "../public/applications/authy.png";
-import alfredIcon from "../public/applications/alfred.png";
 import onepasswordIcon from "../public/applications/1password.png";
 import fbarIcon from "../public/applications/f-bar.png";
 import tableplusIcon from "../public/applications/tableplus.png";
@@ -45,8 +46,10 @@ export default function Uses() {
         <h2 className="text-4xl mb-10 font-sans">Gear</h2>
         <ul className="font-body text-xl">
           <li>
-            <strong>Monitor & Laptop</strong>: Dell U2720Q 4K connected to an M1
-            Macbook Pro 13 inch with an 8 GB RAM
+            <strong>Monitor</strong>: ASUS ProArt PA279CV 4K USB-C
+          </li>
+          <li>
+            <strong>Laptop</strong>: M1 MacBook Pro 14 inch with 16 GB RAM
           </li>
           <li>
             <strong>Webcam</strong>: Logitech C922
@@ -61,17 +64,13 @@ export default function Uses() {
             <strong>Headphones</strong>: Airpods Pro and Airpods Pro Max
           </li>
           <li>
-            <strong>Chair</strong>: DX Racer
+            <strong>Chair</strong>: DX Racer RV131
           </li>
           <li>
             <strong>Smartphone</strong>: iPhone 12 Pro Max 256 GB
           </li>
           <li>
             <strong>Smartwatch</strong>: Apple Watch Series 6
-          </li>
-          <li>
-            <strong>Console</strong>: PS5 Digital Edition connected to a Dell
-            P2415Q 4K monitor
           </li>
         </ul>
       </div>
@@ -183,7 +182,12 @@ export default function Uses() {
           <AppBox
             image={vscodeIcon}
             title="VSCode"
-            description="My favorite IDE for coding PHP, Javascript, Python and so on..."
+            description="My favorite IDE for coding Javascript, Python and so on..."
+          />
+          <AppBox
+            image={phpstormIcon}
+            title="PHPStorm"
+            description="My favorite IDE for coding PHP, Laravel and Vue applications"
           />
           <AppBox
             image={authyIcon}
@@ -191,9 +195,9 @@ export default function Uses() {
             description="2FA manager that is cross-platform and secured with a password"
           />
           <AppBox
-            image={alfredIcon}
-            title="Alfred"
-            description="Alfred is one of my favorite Mac productivity tools. I use it with quite a lot of extensions"
+            image={raycastIcon}
+            title="Raycast"
+            description="Raycast is one of my favorite Mac productivity tools. I was previously using Alfred"
           />
           <AppBox
             image={onepasswordIcon}
