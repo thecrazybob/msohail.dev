@@ -10,6 +10,39 @@ export default function Header() {
 
     const [active, setActive] = useState(false);
 
+    const menuItems = [
+        {
+            route: '/',
+            label: 'Home',
+            active: true,
+        },
+        {
+            route: '/about',
+            label: 'About',
+            active: true,
+        },
+        {
+            route: '/work',
+            label: 'Work',
+            active: true,
+        },
+        {
+            route: '/uses',
+            label: 'Uses',
+            active: true,
+        },
+        {
+            route: '/articles',
+            label: 'Articles',
+            active: false,
+        },
+        {
+            route: '/contact',
+            label: 'Contact',
+            active: true,
+        },
+    ];
+
     const handleClick = () => {
       setActive(!active);
     };
@@ -33,11 +66,17 @@ export default function Header() {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center space-x-6 dark:text-gray-200">
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/about"><a>About</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/work"><a>Work</a></Link></div>
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/uses"><a>Uses</a></Link></div>
-                    {/* <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/articles"><a>Articles</a></Link></div> */}
-                    <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"><Link href="/contact"><a>Contact</a></Link></div>
+                    {
+                        menuItems
+                            .filter(({active}) => active)
+                            .map(({route, label}) =>
+                            <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white">
+                                <Link href={route}>
+                                    <a>{label}</a>
+                                </Link>
+                            </div>
+                        )
+                    }
 
                     {/* Dark mode switcher */}
                     <div className="flex dark:border-white border rounded-full p-1">
@@ -72,48 +111,20 @@ export default function Header() {
                   }`}
                 >
                     <div onClick={handleClick} className="flex flex-col h-full justify-center items-center text-gray-200 text-5xl space-y-6">
-                        <div className="hover:border-b transition-all duration-300 ease-in-out">
-                            <Link href="/">
-                                <a>
-                                    Home
-                                </a>
-                            </Link>
-                        </div>
-                        <div className="hover:border-b transition ease-in-out">
-                            <Link href="/about">
-                                <a>
-                                    About
-                                </a>
-                            </Link>
-                        </div>
-                        <div className="hover:border-b transition ease-in-out">
-                            <Link href="/work">
-                                <a>
-                                    Work
-                                </a>
-                            </Link>
-                        </div>
-                        <div className="hover:border-b transition ease-in-out">
-                            <Link href="/uses">
-                                <a>
-                                    Uses
-                                </a>
-                            </Link>
-                        </div>
-                        {/* <div className="hover:border-b transition ease-in-out">
-                            <Link href="/articles">
-                                <a>
-                                    Articles
-                                </a>
-                            </Link>
-                        </div> */}
-                        <div className="hover:border-b transition ease-in-out">
-                            <Link href="/contact">
-                                <a>
-                                    Contact
-                                </a>
-                            </Link>
-                        </div>
+                        {
+                            menuItems
+                                .filter(({active}) => active)
+                                .map(({route, label}) =>
+                                    <Link href={route}>
+                                        <div className="hover:border-b transition-all duration-300 ease-in-out">
+                                            <a>
+                                                {label}
+                                            </a>
+                                        </div>
+                                    </Link>
+
+                                )
+                        }
                     </div>
                 </div>
 
