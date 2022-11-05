@@ -4,7 +4,7 @@ import Logo from '../public/logo.svg'
 import FaviconLogo from  '../public/favicon/favicon-96x96.png'
 import { useState } from 'react'
 import DarkModeToggle from "react-dark-mode-toggle";
-import useDarkMode from 'use-dark-mode';
+import useDarkMode from '@fisch0920/use-dark-mode';
 
 export default function Header() {
 
