@@ -138,9 +138,9 @@ export default function Footer() {
 
       <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row justify-between">
         <div className="text-blue-600 dark:text-white">
-          © 2021 Mohammed Sohail
+          © {new Date().getFullYear()} Mohammed Sohail
         </div>
-        <div>Built with crafty intentions 🎨 in Ankara 🇹🇷</div>
+        <div>Built with crafty intentions 🎨 in 🇹🇷</div>
       </div>
     </footer>
   );
