@@ -16,7 +16,7 @@ export default function Project(props) {
                 <div className="flex gap-4 flex-wrap">
                     { Array.isArray(props.tech) ?
                         props.tech.map ((icon, index) => (
-                            <div key={index} className="flex drop-shadow-md filter bg-white p-4 rounded-full w-14 items-center justify-center">
+                            <div key={index} className="flex drop-shadow-md bg-white p-4 rounded-full w-14 items-center justify-center">
                                 <Image alt="Technology icon" src={icon}></Image>
                             </div>
                         ))

@@ -107,7 +107,7 @@ export default function Header() {
 
                 <div
                   className={`${
-                    active ? 'h-full w-full fixed z-40 left-0 top-0 bg-opacity-80 bg-black overflow-hidden transition duration-150' : 'hidden'
+                    active ? 'h-full w-full fixed z-40 left-0 top-0 bg-black/80 overflow-hidden transition duration-150' : 'hidden'
                   }`}
                 >
                     <div onClick={handleClick} className="flex flex-col h-full justify-center items-center text-gray-200 text-5xl space-y-6">
