@@ -35,11 +35,11 @@ export default function Uses() {
     <>
       <NextSeo
         title="Uses - Mohammed Sohail"
-        description="The complete list of applications, gear and extensions that I use daily"
+        description="List of applications, gear and extensions that I use daily"
       />
       <TitleBar
         title="Uses"
-        description="The complete list of applications, gear and extensions that I use daily"
+        description="List of applications, gear and extensions that I use daily"
       ></TitleBar>
 
       <div>
