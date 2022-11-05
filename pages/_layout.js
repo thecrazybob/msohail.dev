@@ -4,7 +4,7 @@ import Header from "../components/header";
 
 export default function Layout({ children }) {
   return (
-    <div className="container mx-auto px-10 bg-white-background">
+    <div className="bg-white-background container mx-auto px-10">
       <Head>
         <title>Mohammed Sohail</title>
         <meta

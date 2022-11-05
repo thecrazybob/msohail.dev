@@ -7,14 +7,14 @@ export default function Footer() {
   const { data } = useSWR("/api/spotify", fetcher);
 
   return (
-    <footer className="border-t-2 pt-10 my-10 border-black dark:border-white">
-      <div className="grid grid-flow-row gap-y-10 md:gap-y-0 grid-cols-1 md:grid-cols-2 mb-20">
+    <footer className="my-10 border-t-2 border-black pt-10 dark:border-white">
+      <div className="mb-20 grid grid-flow-row grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-y-0">
         <div className="flex flex-col space-y-6">
           <div className="flex flex-col space-y-6">
-            <div className="border-b border-black dark:border-white max-w-max">
+            <div className="max-w-max border-b border-black dark:border-white">
               Currently listening to
             </div>
-            <div className="flex space-x-2 items-center">
+            <div className="flex items-center space-x-2">
               <Image
                 src={SpotifyLogo}
                 height={32}
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col space-y-6">
-            <div className="border-b border-black dark:border-white max-w-max">
+            <div className="max-w-max border-b border-black dark:border-white">
               Follow me on social media
             </div>
             <div className="flex space-x-4 dark:invert">
@@ -108,7 +108,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col md:justify-self-end space-y-4">
+        <div className="flex flex-col space-y-4 md:justify-self-end">
           <div className="text-3xl">
             I am available to work<br></br> on your project{" "}
             <svg
@@ -130,13 +130,13 @@ export default function Footer() {
             <a href="mailto:hey@msohail.dev">hey@msohail.dev</a>
           </div>
 
-          <div className="font-light hover:border-b hover:border-black dark:hover:border-white max-w-max transition-all duration-150 ease-in-out">
+          <div className="max-w-max font-light transition-all duration-150 ease-in-out hover:border-b hover:border-black dark:hover:border-white">
             <a href="https://cv.msohail.dev">View Resume ↗</a>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row justify-between">
+      <div className="flex flex-col justify-between space-y-2 md:flex-row md:space-y-0">
         <div className="text-blue-600 dark:text-white">
           © {new Date().getFullYear()} Mohammed Sohail
         </div>

@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { DefaultSeo } from "next-seo";
 
 import Layout from "../pages/_layout";
+
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     mailgo();

@@ -43,10 +43,11 @@ export default function Uses() {
       ></TitleBar>
 
       <div>
-        <h2 className="text-4xl mb-10 font-sans">Gear</h2>
+        <h2 className="mb-10 font-sans text-4xl">Gear</h2>
         <ul className="font-body text-xl">
           <li>
-            <strong>Monitor</strong>: ASUS ProArt PA279CV 4K USB-C and DELL S2721QS
+            <strong>Monitor</strong>: ASUS ProArt PA279CV 4K USB-C and DELL
+            S2721QS
           </li>
           <li>
             <strong>Laptop</strong>: M1 MacBook Pro 14 inch with 16 GB RAM
@@ -76,7 +77,7 @@ export default function Uses() {
       </div>
 
       <div className="mt-16">
-        <h2 className="text-4xl mb-10 font-sans">Desktop Apps</h2>
+        <h2 className="mb-10 font-sans text-4xl">Desktop Apps</h2>
 
         <div className="flex flex-col space-y-6">
           <AppBox
@@ -224,7 +225,7 @@ export default function Uses() {
 
       <div className="grid md:grid-cols-2">
         <div className="mt-16">
-          <h2 className="text-4xl mb-10 font-sans">Chrome extensions</h2>
+          <h2 className="mb-10 font-sans text-4xl">Chrome extensions</h2>
           <ul className="font-body text-xl">
             <li>1Password</li>
             <li>Alpine.js devtools</li>
@@ -244,8 +245,8 @@ export default function Uses() {
         </div>
 
         <div className="mt-16">
-          <h2 className="text-4xl mb-10 font-sans">Services</h2>
-          <ul className="text-xl font-body">
+          <h2 className="mb-10 font-sans text-4xl">Services</h2>
+          <ul className="font-body text-xl">
             <li>Vercel</li>
             <li>Cloudflare</li>
             <li>Spotify</li>

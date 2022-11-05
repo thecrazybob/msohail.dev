@@ -13,7 +13,7 @@ export default function Articles() {
         description="I ocassionally write articles on coding, tech and personal tips"
       ></TitleBar>
 
-      <section className="-mt-8 flex flex-col space-y-8 divide-y divide-black dark:divide-white divide">
+      <section className="divide -mt-8 flex flex-col space-y-8 divide-y divide-black dark:divide-white">
         <div className="pt-8">
           <h4 className="text-3xl">An example article - 20th May 2021</h4>
           <p className="text-xl">

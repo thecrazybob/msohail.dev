@@ -1,6 +1,5 @@
 import SkillBox from "../components/skill-box";
 import TitleBar from "../components/title-bar";
-import Image from "next/image";
 
 import laravelLogo from "../public/laravel.svg";
 import phpLogo from "../public/php.svg";
@@ -26,7 +25,7 @@ export default function About() {
         description="The skills that I learned over the past few years"
       ></TitleBar>
 
-      <div className="text-xl font-body space-y-5">
+      <div className="space-y-5 font-body text-xl">
         <p>
           My interest in coding began when I was a kid, and in time, I developed
           an interest and passion for working on computer systems and
@@ -55,11 +54,11 @@ export default function About() {
         </p>
       </div>
 
-      <h2 className="text-3xl border-b-2 border-black dark:border-white my-10 max-w-max">
+      <h2 className="my-10 max-w-max border-b-2 border-black text-3xl dark:border-white">
         Skills
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <SkillBox
           logo={laravelLogo}
           title="Laravel"
@@ -107,10 +106,9 @@ export default function About() {
         ></SkillBox>
       </div>
 
-      <div className="grid md:grid-cols-2 mt-16">
-
+      <div className="mt-16 grid md:grid-cols-2">
         <div>
-          <h3 className="text-3xl border-b-2 max-w-max border-black dark:border-white">
+          <h3 className="max-w-max border-b-2 border-black text-3xl dark:border-white">
             Languages that I speak:
           </h3>
           <ul className="my-8">
@@ -122,7 +120,7 @@ export default function About() {
         </div>
 
         <div>
-          <h2 className="text-3xl border-b-2 border-black dark:border-white max-w-max">
+          <h2 className="max-w-max border-b-2 border-black text-3xl dark:border-white">
             What am I doing right now?
           </h2>
           <ul className="my-8">
@@ -134,7 +132,7 @@ export default function About() {
         </div>
 
         <div className="col-span-2 flex flex-col items-center">
-          <h2 className="text-3xl border-b-2 border-black dark:border-white my-10 max-w-max">
+          <h2 className="my-10 max-w-max border-b-2 border-black text-3xl dark:border-white">
             Find me on social media
           </h2>
 
