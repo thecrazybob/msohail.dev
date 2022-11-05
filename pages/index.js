@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Mohammed Sohail - Full Stack Developer"
-        description="I'm Mohammed Sohail, a full stack web developer. I thoughtfully design, expertly build and carefully maintain meaningful, results-driven websites and applications that are a pleasure to use. I mainly develop web applications in Laravel/PHP alongside Next.js, Livewire or Inertia."
+        title="Mohammed Sohail - Full Stack Engineer"
+        description="I'm Mohammed Sohail, a full stack engineer. I thoughtfully design, expertly build and carefully maintain meaningful, results-driven websites and applications that are a pleasure to use. I mainly develop web applications in Laravel/PHP alongside Next.js, Livewire or Inertia."
       />
       <section className="mb-20 pb-20 border-b-2 border-black dark:border-white">
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10 md:gap-20 lg:gap-0">
@@ -25,7 +25,7 @@ export default function Home() {
               <h2 className="text-5xl">Hi there! 👋</h2>
 
               <h2 className="text-5xl">
-                I'm Mohammed Sohail, a full stack web developer.
+                I'm Mohammed Sohail, a full stack engineer.
               </h2>
             </div>
 
@@ -38,8 +38,7 @@ export default function Home() {
               </p>
 
               <p>
-                I am currently pursuing my CS degree at Bilkent University,
-                Ankara and I work as a freelance web developer.
+                I am currently pursuing my CS degree at University of London, and I work as a freelance web developer.
               </p>
             </div>
           </div>
