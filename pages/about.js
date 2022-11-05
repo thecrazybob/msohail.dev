@@ -12,11 +12,6 @@ import livewireLogo from "../public/livewire.svg";
 import alpinejsLogo from "../public/alpinejs.svg";
 import devopsLogo from "../public/devops.svg";
 
-import pakistanFlag from "../public/pakistan.svg";
-import uaeFlag from "../public/uae.svg";
-import turkeyFlag from "../public/turkey.svg";
-import saudiarabiaFlag from "../public/saudi-arabia.svg";
-import malaysiaFlag from "../public/malaysia.svg";
 import { NextSeo } from "next-seo";
 
 export default function About() {
@@ -113,56 +108,32 @@ export default function About() {
       </div>
 
       <div className="grid md:grid-cols-2 mt-16">
+
         <div>
           <h3 className="text-3xl border-b-2 max-w-max border-black dark:border-white">
             Languages that I speak:
           </h3>
           <ul className="my-8">
-            <li>Turkish (elementary proficiency)</li>
             <li>English (fluent)</li>
-            <li>Urdu (fluent)</li>
             <li>Pashto (native)</li>
+            <li>Urdu (fluent)</li>
+            <li>Turkish (elementary proficiency)</li>
           </ul>
         </div>
-        <div>
-          <h3 className="text-3xl border-b-2 max-w-max border-black dark:border-white">
-            Countries that I have been to:
-          </h3>
-          <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-5 gap-4 mt-8 justify-between">
-            <div className="flex justify-center filter shadow-md bg-white rounded-md p-4">
-              <Image width={96} height={96} src={turkeyFlag}></Image>
-            </div>
-            <div className="flex justify-center filter shadow-md bg-white rounded-md p-4">
-              <Image width={96} height={96} src={uaeFlag}></Image>
-            </div>
-            <div className="flex justify-center filter shadow-md bg-white rounded-md p-4">
-              <Image width={96} height={96} src={malaysiaFlag}></Image>
-            </div>
-            <div className="flex justify-center filter shadow-md bg-white rounded-md p-4">
-              <Image width={96} height={96} src={pakistanFlag}></Image>
-            </div>
-            <div className="flex justify-center filter shadow-md bg-white rounded-md p-4">
-              <Image width={96} height={96} src={saudiarabiaFlag}></Image>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="grid md:grid-cols-2">
-        <div className="text-xl">
-          <h2 className="text-3xl border-b-2 border-black dark:border-white my-10 max-w-max">
+        <div>
+          <h2 className="text-3xl border-b-2 border-black dark:border-white max-w-max">
             What am I doing right now?
           </h2>
-          <ul>
-            <li>Working as a part time developer to pay bills</li>
-            <li>Studying Computer Engineering in Bilkent University</li>
-            <li>Working on side projects on weekends</li>
-            <li>Ocassionally trade crypto and playing CSGO</li>
-            <li>Long walks at night</li>
+          <ul className="my-8">
+            <li>Working as a freelance developer</li>
+            <li>Studying Computer Science at University of London</li>
+            <li>Working side projects over the weekend</li>
+            <li>Reading books on self-development</li>
           </ul>
         </div>
 
-        <div>
+        <div className="col-span-2 flex flex-col items-center">
           <h2 className="text-3xl border-b-2 border-black dark:border-white my-10 max-w-max">
             Find me on social media
           </h2>
