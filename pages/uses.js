@@ -46,7 +46,7 @@ export default function Uses() {
         <h2 className="text-4xl mb-10 font-sans">Gear</h2>
         <ul className="font-body text-xl">
           <li>
-            <strong>Monitor</strong>: ASUS ProArt PA279CV 4K USB-C
+            <strong>Monitor</strong>: ASUS ProArt PA279CV 4K USB-C and DELL S2721QS
           </li>
           <li>
             <strong>Laptop</strong>: M1 MacBook Pro 14 inch with 16 GB RAM
@@ -55,13 +55,13 @@ export default function Uses() {
             <strong>Webcam</strong>: Logitech C922
           </li>
           <li>
-            <strong>Mouse</strong>: Logitech MX Master 3 and Apple Magic Mouse
+            <strong>Mouse</strong>: Logitech MX Master 3
           </li>
           <li>
-            <strong>Keyboard</strong>: Apple Magic Space Grey and Keychron K8
+            <strong>Keyboard</strong>: Apple Magic Space Grey
           </li>
           <li>
-            <strong>Headphones</strong>: Airpods Pro and Airpods Pro Max
+            <strong>Headphones</strong>: Airpods Pro and Bose QC45
           </li>
           <li>
             <strong>Chair</strong>: DX Racer RV131
@@ -238,7 +238,6 @@ export default function Uses() {
             <li>Grammarly</li>
             <li>Language Learning with Netflix</li>
             <li>Mendeley Web Importer</li>
-            <li>mymind</li>
             <li>Teleparty</li>
             <li>Windy (paid)</li>
           </ul>
@@ -250,8 +249,9 @@ export default function Uses() {
             <li>Vercel</li>
             <li>Cloudflare</li>
             <li>Spotify</li>
-            <li>Netflix</li>
+            <li>Disney+</li>
             <li>Google Drive</li>
+            <li>iCloud</li>
           </ul>
         </div>
       </div>
