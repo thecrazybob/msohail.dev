@@ -16,7 +16,7 @@ export default function Layout({ children }) {
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossOrigin
+          crossOrigin="true"
         ></link>
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&Inter:wght@400;500&display=swap"

@@ -69,8 +69,10 @@ export default function Header() {
                     {
                         menuItems
                             .filter(({active}) => active)
-                            .map(({route, label}) =>
-                            <div className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white">
+                            .map(({route, label}, index) =>
+                            <div key={index}
+                                 className="duration-75 ease-in-out transition-all hover:border-b-2 hover:border-black dark:hover:border-white"
+                            >
                                 <Link href={route}>
                                     <a>{label}</a>
                                 </Link>
@@ -114,8 +116,8 @@ export default function Header() {
                         {
                             menuItems
                                 .filter(({active}) => active)
-                                .map(({route, label}) =>
-                                    <Link href={route}>
+                                .map(({route, label}, index) =>
+                                    <Link key={index} href={route}>
                                         <div className="hover:border-b transition-all duration-300 ease-in-out">
                                             <a>
                                                 {label}
