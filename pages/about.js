@@ -108,7 +108,7 @@ export default function About() {
 
       <div className="mt-16 grid md:grid-cols-2">
         <div>
-          <h3 className="max-w-max border-b-2 border-black text-3xl dark:border-white">
+          <h3 className="max-w-max border-b-2 py-4 border-black text-3xl dark:border-white">
             Languages that I speak:
           </h3>
           <ul className="my-8">
@@ -120,7 +120,7 @@ export default function About() {
         </div>
 
         <div>
-          <h2 className="max-w-max border-b-2 border-black text-3xl dark:border-white">
+          <h2 className="max-w-max border-b-2 py-4 border-black text-3xl dark:border-white">
             What am I doing right now?
           </h2>
           <ul className="my-8">
