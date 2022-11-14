@@ -107,9 +107,9 @@ export default function Header() {
         />
 
         {/* Toggle */}
-        <button onClick={handleClick} aria-label="Mobile menu toggle">
+        <button className={active ? 'rotate-45 z-50' : ''} onClick={handleClick} aria-label="Mobile menu toggle">
           {active ? (
-            <span className="relative z-50 rotate-45 text-7xl text-white">
+            <span aria-label="Close menu" className="relative text-7xl text-white">
               +
             </span>
           ) : (
