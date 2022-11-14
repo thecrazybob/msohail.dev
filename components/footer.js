@@ -140,7 +140,9 @@ export default function Footer() {
           </div>
 
           <div className="max-w-max font-light transition-all duration-150 ease-in-out hover:border-b hover:border-black dark:hover:border-white">
-            <a href="https://cv.msohail.dev">View Resume ↗</a>
+            <a target="_blank" href="https://cv.msohail.dev">
+              View Resume ↗
+            </a>
           </div>
         </div>
       </div>
@@ -149,7 +151,16 @@ export default function Footer() {
         <div className="text-blue-600 dark:text-white">
           © {new Date().getFullYear()} Mohammed Sohail
         </div>
-        <div>Built with crafty intentions in 🇹🇷</div>
+        <div>
+          Built with crafty intentions in 🇹🇷 -{" "}
+          <a
+            className="font-medium text-white hover:underline"
+            href="https://github.com/thecrazybob/msohail.dev"
+            target="_blank"
+          >
+            View source code ↗
+          </a>
+        </div>
       </div>
     </footer>
   );
