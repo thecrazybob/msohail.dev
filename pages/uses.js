@@ -10,10 +10,8 @@ import telegramIcon from "../public/applications/telegram.png";
 import discordIcon from "../public/applications/discord.png";
 import slackIcon from "../public/applications/slack.png";
 import trelloIcon from "../public/applications/trello.png";
-import todoistIcon from "../public/applications/todoist.png";
 import insomniaIcon from "../public/applications/insomnia.png";
 import rectangleIcon from "../public/applications/rectangle.png";
-import rocketIcon from "../public/applications/rocket.png";
 import bartenderIcon from "../public/applications/bartender.png";
 import sipIcon from "../public/applications/sip.png";
 import cleanshotIcon from "../public/applications/cleanshot.png";
@@ -31,6 +29,151 @@ import termiusIcon from "../public/applications/termius.png";
 import { NextSeo } from "next-seo";
 
 export default function Uses() {
+  const apps = [
+    {
+      image: chromeIcon,
+      title: "Google Chrome",
+      description:
+        "My favorite browser for both dev and general use. I use quite a lot of extensions that are listed on the bottom of this page",
+    },
+    {
+      image: sparkIcon,
+      title: "Spark",
+      description:
+        "My favorite mail app that I use on my macOS and iOS. Its a life changer!",
+    },
+    {
+      image: bearIcon,
+      title: "Bear",
+      description:
+        "Markdown note-taking app for my own articles, university stuff and just usual notes",
+    },
+    {
+      image: milanoteIcon,
+      title: "Milanote",
+      description:
+        "The note-taking app I use for projects. Highly recommended for brainstorming and mind maps",
+    },
+    {
+      image: figmaIcon,
+      title: "Figma",
+      description:
+        "For mockups and designing web sites like this one for example",
+    },
+    {
+      image: telegramIcon,
+      title: "Telegram",
+      description:
+        "My favorite messaging app that actually cares about the privacy aspect",
+    },
+    {
+      image: discordIcon,
+      title: "Discord",
+      description:
+        "For hanging out with developer communites and sometimes gaming communities",
+    },
+    {
+      image: slackIcon,
+      title: "Slack",
+      description: "For client projects that are already on Slack",
+    },
+    {
+      image: trelloIcon,
+      title: "Trello",
+      description:
+        "For keeping track of tasks where multiple people are working together",
+    },
+    {
+      image: insomniaIcon,
+      title: "Insomnia",
+      description: "For making API requests and testing the APIs that I make",
+    },
+    {
+      image: rectangleIcon,
+      title: "Rectangle",
+      description: "Resize macOS windows using shortcuts",
+    },
+    {
+      image: bartenderIcon,
+      title: "Bartender",
+      description: "Cleans up my macOS's application bar",
+    },
+    {
+      image: sipIcon,
+      title: "Sip",
+      description: "Simple and cool color picker for macOS",
+    },
+    {
+      image: cleanshotIcon,
+      title: "CleanShot",
+      description:
+        "It has all of the things that are missing in the default macOS screenshot utility",
+    },
+    {
+      image: handmirrorIcon,
+      title: "Hand Mirror",
+      description: "A digital mirror before I go into those Zoom meetings",
+    },
+    {
+      image: textsniperIcon,
+      title: "TextSniper",
+      description: "An OCR tool when copying isn't allowed",
+    },
+    {
+      image: homebrewIcon,
+      title: "Homebrew",
+      description: "Package management for macOS",
+    },
+    {
+      image: tinkerwellIcon,
+      title: "Tinkerwell",
+      description: "For debugging and testing out live PHP/Laravel code",
+    },
+    {
+      image: vscodeIcon,
+      title: "VSCode",
+      description: "My favorite IDE for coding Javascript, Python and so on...",
+    },
+    {
+      image: phpstormIcon,
+      title: "PHPStorm",
+      description:
+        "My favorite IDE for coding PHP, Laravel and Vue applications",
+    },
+    {
+      image: authyIcon,
+      title: "Authy",
+      description:
+        "2FA manager that is cross-platform and secured with a password",
+    },
+    {
+      image: raycastIcon,
+      title: "Raycast",
+      description:
+        "Raycast is one of my favorite Mac productivity tools. I was previously using Alfred",
+    },
+    {
+      image: onepasswordIcon,
+      title: "1Password",
+      description:
+        "My favorite password manager so I don't have to remember them by heart",
+    },
+    {
+      image: fbarIcon,
+      title: "F-Bar",
+      description: "For managing the sites I have hosted via Laravel Forge",
+    },
+    {
+      image: tableplusIcon,
+      title: "TablePlus",
+      description: "For managing all types of databases",
+    },
+    {
+      image: termiusIcon,
+      title: "Termius",
+      description: "SSH client that works both on my macOS and iOS",
+    },
+  ];
   return (
     <>
       <NextSeo
@@ -80,146 +223,9 @@ export default function Uses() {
         <h2 className="mb-10 font-sans text-4xl">Desktop Apps</h2>
 
         <div className="flex flex-col space-y-6">
-          <AppBox
-            image={chromeIcon}
-            title="Google Chrome"
-            description="My favorite browser for both dev and general use. I use quite a lot of extensions that are listed on the bottom of this page"
-          />
-          <AppBox
-            image={sparkIcon}
-            title="Spark"
-            description="My favorite mail app that I use on my macOS and iOS. Its a life changer!"
-          />
-          <AppBox
-            image={bearIcon}
-            title="Bear"
-            description="Markdown note-taking app for my own articles, university stuff and just usual notes"
-          />
-          <AppBox
-            image={milanoteIcon}
-            title="Milanote"
-            description="The note-taking app I use for projects. Highly recommended for brainstorming and mind maps"
-          />
-          <AppBox
-            image={figmaIcon}
-            title="Figma"
-            description="For mockups and designing web sites like this one for example"
-          />
-          <AppBox
-            image={telegramIcon}
-            title="Telegram"
-            description="My favorite messaging app that actually cares about the privacy aspect"
-          />
-          <AppBox
-            image={discordIcon}
-            title="Discord"
-            description="For hanging out with developer communites and sometimes gaming communities"
-          />
-          <AppBox
-            image={slackIcon}
-            title="Slack"
-            description="For client projects that are already on Slack"
-          />
-          <AppBox
-            image={trelloIcon}
-            title="Trello"
-            description="For keeping track of tasks where multiple people are working together"
-          />
-          <AppBox
-            image={todoistIcon}
-            title="Todoist"
-            description="To keep tracking of my personal todos, shopping lists and goals"
-          />
-          <AppBox
-            image={insomniaIcon}
-            title="Insomnia"
-            description="For making API requests and testing the APIs that I make"
-          />
-          <AppBox
-            image={rectangleIcon}
-            title="Rectangle"
-            description="Resize macOS windows using shortcuts"
-          />
-          <AppBox
-            image={rocketIcon}
-            title="Rocket"
-            description="When I need to type an emoji"
-          />
-          <AppBox
-            image={bartenderIcon}
-            title="Bartender"
-            description="Cleans up my macOS's application bar"
-          />
-          <AppBox
-            image={sipIcon}
-            title="Sip"
-            description="Simple and cool color picker for macOS"
-          />
-          <AppBox
-            image={cleanshotIcon}
-            title="CleanShot"
-            description="It has all of the things that are missing in the default macOS screenshot utility"
-          />
-          <AppBox
-            image={handmirrorIcon}
-            title="Hand Mirror"
-            description="A digital mirror before I go into those Zoom meetings"
-          />
-          <AppBox
-            image={textsniperIcon}
-            title="TextSniper"
-            description="An OCR tool when copying isn't allowed"
-          />
-          <AppBox
-            image={homebrewIcon}
-            title="Homebrew"
-            description="Package management for macOS"
-          />
-          <AppBox
-            image={tinkerwellIcon}
-            title="Tinkerwell"
-            description="For debugging and testing out live PHP/Laravel code"
-          />
-          <AppBox
-            image={vscodeIcon}
-            title="VSCode"
-            description="My favorite IDE for coding Javascript, Python and so on..."
-          />
-          <AppBox
-            image={phpstormIcon}
-            title="PHPStorm"
-            description="My favorite IDE for coding PHP, Laravel and Vue applications"
-          />
-          <AppBox
-            image={authyIcon}
-            title="Authy"
-            description="2FA manager that is cross-platform and secured with a password"
-          />
-          <AppBox
-            image={raycastIcon}
-            title="Raycast"
-            description="Raycast is one of my favorite Mac productivity tools. I was previously using Alfred"
-          />
-          <AppBox
-            image={onepasswordIcon}
-            title="1Password"
-            description="My favorite password manager so I don't have to remember them by heart"
-          />
-          <AppBox
-            image={fbarIcon}
-            title="F-Bar"
-            description="For managing the sites I have hosted via Laravel Forge"
-          />
-          <AppBox
-            image={tableplusIcon}
-            title="TablePlus"
-            description="For managing all types of databases"
-          />
-          <AppBox
-            image={termiusIcon}
-            title="Termius"
-            description="SSH client that works both on my macOS and iOS"
-          />
+          {apps.map(({ image, title, description }) => (
+            <AppBox image={image} title={title} description={description} />
+          ))}
         </div>
       </div>
 
@@ -237,22 +243,9 @@ export default function Uses() {
             <li>URL Incrementer</li>
             <li>User-Agent Switcher for Chrome</li>
             <li>Grammarly</li>
-            <li>Language Learning with Netflix</li>
-            <li>Mendeley Web Importer</li>
+            <li>Language Reactor</li>
             <li>Teleparty</li>
             <li>Windy (paid)</li>
-          </ul>
-        </div>
-
-        <div className="mt-16">
-          <h2 className="mb-10 font-sans text-4xl">Services</h2>
-          <ul className="font-body text-xl">
-            <li>Vercel</li>
-            <li>Cloudflare</li>
-            <li>Spotify</li>
-            <li>Disney+</li>
-            <li>Google Drive</li>
-            <li>iCloud</li>
           </ul>
         </div>
       </div>

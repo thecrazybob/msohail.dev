@@ -107,9 +107,16 @@ export default function Header() {
         />
 
         {/* Toggle */}
-        <button className={active ? 'rotate-45 z-50' : ''} onClick={handleClick} aria-label="Mobile menu toggle">
+        <button
+          className={active ? "z-50 rotate-45" : ""}
+          onClick={handleClick}
+          aria-label="Mobile menu toggle"
+        >
           {active ? (
-            <span aria-label="Close menu" className="relative text-7xl text-white">
+            <span
+              aria-label="Close menu"
+              className="relative text-7xl text-white"
+            >
               +
             </span>
           ) : (
@@ -147,7 +154,7 @@ export default function Header() {
             .filter(({ active }) => active)
             .map(({ route, label }, index) => (
               <Link key={index} href={route}>
-                <div className="transition-all duration-300 ease-in-out hover:border-b cursor-pointer">
+                <div className="cursor-pointer transition-all duration-300 ease-in-out hover:border-b">
                   <a>{label}</a>
                 </div>
               </Link>
