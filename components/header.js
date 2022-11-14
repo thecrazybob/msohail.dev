@@ -147,7 +147,7 @@ export default function Header() {
             .filter(({ active }) => active)
             .map(({ route, label }, index) => (
               <Link key={index} href={route}>
-                <div className="transition-all duration-300 ease-in-out hover:border-b">
+                <div className="transition-all duration-300 ease-in-out hover:border-b cursor-pointer">
                   <a>{label}</a>
                 </div>
               </Link>
