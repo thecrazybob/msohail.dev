@@ -140,7 +140,7 @@ export default function Footer() {
         <div className="text-blue-600 dark:text-white">
           © {new Date().getFullYear()} Mohammed Sohail
         </div>
-        <div>Built with crafty intentions 🎨 in 🇹🇷</div>
+        <div>Built with crafty intentions in 🇹🇷</div>
       </div>
     </footer>
   );
