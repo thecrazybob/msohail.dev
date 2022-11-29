@@ -21,8 +21,8 @@ export default function App({ Component, pageProps }) {
           site_name: "Mohammed Sohail",
         }}
         twitter={{
-          handle: "@itscrazybob",
-          site: "@itscrazybob",
+          handle: "@msohaildev",
+          site: "@msohaildev",
           cardType: "summary_large_image",
         }}
       />

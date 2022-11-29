@@ -48,7 +48,7 @@ export default function Footer() {
               <a
                 rel="noreferrer"
                 aria-label="Twitter"
-                href="https://www.twitter.com/itscrazybob"
+                href="https://www.twitter.com/msohaildev"
                 target="_blank"
               >
                 <svg
